@@ -24,7 +24,7 @@ body {
   font-family: Lato, "Trebuchet MS", "Verdana", "sans-serif";
 }
 
-#testbutton {
+#mainButton {
   width: 150px;
   height: 50px;
   border-radius: 180px;
@@ -46,7 +46,7 @@ body {
   line-height: 12px;
 }
 
-#testbutton:before {
+#mainButton:before {
   content: "";
   z-index: 1;
   position: absolute;
@@ -71,7 +71,7 @@ body {
   );
 }
 
-#testbutton:hover:before {
+#mainButton:hover:before {
   opacity: 1;
   transition: 0.3s opacity ease-in-out;
   filter: blur(25px);
@@ -88,7 +88,7 @@ body {
   );
 }
 
-#testbutton:after {
+#mainButton:after {
   content: "CLICK ME!";
   text-align: center;
   line-height: 40px;
